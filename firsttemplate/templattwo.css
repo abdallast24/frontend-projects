@@ -1,0 +1,269 @@
+.services-section ,about-section{
+    height:150hw;
+    background:white;
+
+   
+}
+
+.services-section , .contact-section ,.portfolio-section ,.about-section{
+    text-align:center;
+    padding-top:44px;
+}
+
+.services-first h3 ,.contact-section h3 ,.portfolio-section h3 ,.about-section h3{
+     font-size:90px;
+    color:#ebeced;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:-5px;
+
+}
+.services-first p , .contact-head-paragraph ,.portfolio-head-paragraph ,.about-head-paragraph{
+    color:#797989;
+    font-size:x-large;
+    margin-top:-32px;
+}
+
+.services-content {
+    display:grid;
+    grid-template-areas : 
+    "graphic web-design services-shape"
+    "ui-design web-dev services-shape"
+    ;
+    margin-top:100px;
+    justify-content :space-evenly;
+    
+}
+
+
+.web-dev-heading, .graphic-heading , .web-design-heading , .ui-design-heading
+{
+      font-weight:bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web-dev-paragraph , .graphic-paragraph,.web-design-paragraph,.ui-design-paragraph
+{
+  color:#8a8a8a;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.graphic-design{
+    grid-area:graphic;
+}
+
+.web-design{
+    grid-area:web-design;
+
+}
+
+
+.ui-design{
+    grid-area:ui-design;
+
+}
+
+
+.web-development{
+    grid-area:web-dev;
+
+}
+
+
+.services-right{
+        grid-area:services-shape;
+
+}
+
+.shape , .left-shape-rectangle,.right-shape-rectangle,.bottom-shape-rectangle{
+    width:100px;
+    height:430px;
+    background:#2c4755;
+    margin:0px;
+    position:relative;
+    float:right;
+    top:-42px;
+    right:60px;
+    z-index:0;
+}
+
+.services-right img {
+    width:260px;
+    height:346.6px;
+    margin-left:-40px;
+        position: relative; /* لازم */
+
+    z-index: 1;
+}
+.portfolio-content{
+    display:flex;
+    justify-content: center;
+    column-gap:30px;
+    margin-top:60px;
+    height:450px;
+}
+.portfolio-content div{
+    width:360px;
+    height:395px;
+    background:white; 
+    text-align:start
+}
+.portfolio-content img{
+    height:240px;
+}
+
+.portfolio-first-paragraph ,.about-first-paragraph{
+    font-weight:bolder;
+    font-size:18px;
+    padding-left:20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.portfolio-second-paragraph ,.about-second-paragraph{
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left:20px;
+      color:#8a8a8a;
+      font-size:17px;
+      line-height: 25px;
+
+}
+
+.about-content{
+    display:grid;
+        
+    height:570px;
+    grid-template-areas: 
+    "shape-left  about-first-parag"
+    "shape-left shape-first"
+    "shape-left  about-second-parag"
+
+    ;
+    justify-content: space-evenly;
+    align-content: center;
+    padding:40px 0px 20px 130px;
+
+    grid-template-columns:auto 1fr;
+
+        }
+
+
+.left-shape{
+        grid-area:shape-left;
+
+}
+.left-shape-rectangle{
+    height:460px;
+    background:#ebeced;
+    float:left;
+    top:-42px;
+    left:80px;
+}
+.about-content img{
+    width:250px;
+        position: relative; /* لازم */
+    height:375px;
+    z-index:1;
+}
+.right-shape-rectangle{
+    background-color: #10cab7;
+    height:382px;
+    width:80px;
+    right:50px;
+}
+.bottom-shape-rectangle{
+    width:130px;
+    height:80px;
+    background-color: #10cab7;
+    top:260px;
+    right:50px;
+
+}
+
+
+
+.about-first-paragraph{
+    grid-area:about-first-parag;
+    font-size:16px;
+    line-height:30px;
+}
+
+.about-second-paragraph{
+    grid-area:about-second-parag;
+        line-height:30px;
+
+}
+
+.first-shape{
+    width:50%;
+    background:#09766b;
+    height:1.2px;
+    margin-left:20px;
+    grid-area:shape-first;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-section ,.portfolio-section{
+    height:150hw;
+    background-color:#f6f6f6;
+    padding:35px;
+}
+
+.contact-first-paragraph{
+    color:#2c4755;
+     font-weight:bolder;
+     font-size:35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:100px;
+}
+
+.contact-section a {
+    color:#10cab7;
+    font-size:35px;
+    font-weight:bolder;
+    text-decoration: none;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-last-paragraph{
+    font-size:16px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.youtube{
+    margin-left:6px;
+}
